@@ -80,10 +80,14 @@ env_logger = "*"
 log = "*"
 cgmath = "*"
 glutin = "0.3"
-glfw = ">=0.0.8"
 gfx_gl = "0.1"
 rand = "*"
 time = "*"
 genmesh = "*"
 noise = "*"
 image = "*"
+
+[target.i686-unknown-linux-gnu.dev_dependencies]
+glfw = ">=0.0.8"
+[target.x86_64-unknown-linux-gnu.dev_dependencies]
+glfw = ">=0.0.8"
